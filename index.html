@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <title>Сапер</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+  <link rel="stylesheet" href="media/css/style.css" />
+</head>
+
+<body>
+  <div id="minesweeper"></div>
+
+  <script src="media/js/game.js" type="text/javascript"></script>
+  <script>
+    jQuery(function ($) {
+      minesweeper = new MineSweeper();
+      minesweeper.init();
+    });
+  </script>
+</body>
+
+</html>
